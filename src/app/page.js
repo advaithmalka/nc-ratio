@@ -19,7 +19,7 @@ export default function Home() {
     const [imageError, setImageError] = useState(null);
     const fileInputRef = useRef(null);
     // const SERVER_URL = "http://127.0.0.1:5000/" // dev
-    const SERVER_URL = "https://advaithmalka-nc-calculator-api.hf.space" // prod
+    const SERVER_URL = "https://advaithmalka-nc-calculator-api.hf.space/" // prod
 
     const [sampleImages] = useState([
       sample1,
